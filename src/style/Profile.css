@@ -1,0 +1,43 @@
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.profile-details strong {
+  font-weight: bold;
+}
+
+.loading, .error {
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+}
+
+.booking-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.booking-history-table th, .booking-history-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.booking-history-table th {
+  background-color: #f4f4f4;
+}
+
+.booking-history-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
